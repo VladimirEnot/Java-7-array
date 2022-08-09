@@ -23,7 +23,7 @@ public class StatServiceTest {
         StatService service = new StatService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         long actual = service.avarage(sales);
-        long expected = ( 8 + 15 + 13 + 15 + 17 + 20 + 19 + 20 + 7 + 14 + 14 + 18)/ 12;
+        long expected = (8 + 15 + 13 + 15 + 17 + 20 + 19 + 20 + 7 + 14 + 14 + 18) / 12;
 
 
         assertEquals(actual, expected);
